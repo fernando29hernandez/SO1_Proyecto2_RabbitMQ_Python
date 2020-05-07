@@ -2,7 +2,7 @@ version: "2"
 
 services:
   app-python:
-    build: /.
+    build: .
     ports:
       - "80:80"
-      - "5672:5672"
+      - "5674:5672"
