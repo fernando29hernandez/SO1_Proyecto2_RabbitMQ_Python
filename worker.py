@@ -34,7 +34,7 @@ def callback(ch, method, properties, body):
 
 if __name__ == "__main__":
     connection = pika.BlockingConnection(
-        pika.ConnectionParameters(host='35.237.232.19'))
+        pika.ConnectionParameters(host='35.237.178.105'))
     channel = connection.channel()
     channel.queue_declare(queue='task_queue', durable=True)
     print(' [*] Waiting for messages. To exit press CTRL+C')
