@@ -5,9 +5,9 @@ import json
 import pymongo
 import redis
 
-myclientmongo = pymongo.MongoClient("mongodb://35.237.232.19:27017/")
+myclientmongo = pymongo.MongoClient("mongodb://35.237.178.105:27017/")
 myclientredis = redis.Redis(
-    host='35.237.232.19',
+    host='35.237.178.105',
     port=6379, 
     password='',
     db=0
